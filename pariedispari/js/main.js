@@ -21,10 +21,10 @@ risultato = paridispari(somma);
 
 // condizioni se hai  vinto o no
 if (risultato == pariDisp) {
-  document.getElementById('mioid').innerHTML = "hai scelto " + pariDisp + " la somma dei numeri è " + somma +" hai vinto."
+  document.getElementById('mioid').innerHTML = "hai scelto " + pariDisp + ", la somma dei numeri è " + somma +" : hai vinto."
   // console.log("hai vinto");
 } else {
-  document.getElementById('mioid').innerHTML = "hai scelto " + pariDisp + " la somma dei numeri è " + somma +" hai perso."
+  document.getElementById('mioid').innerHTML = "hai scelto " + pariDisp + ", la somma dei numeri è " + somma +" : hai perso."
   // console.log("hai perso");
 }
 
